@@ -1,0 +1,291 @@
+@media (min-width: 300px) and (max-width: 576px) {
+  .section-title h1 {
+    font-size: 2rem; }
+  .section-title p {
+    padding: 0 !important;
+    margin: 2rem 0 !important; }
+
+  .pt-10 {
+    padding-top: 3rem !important; }
+
+  .header {
+    text-align: center; }
+    .header .header-img {
+      display: none; }
+    .header .header-btns {
+      margin: 3rem 0; }
+    .header .logo img {
+      margin-top: 5rem;
+      margin-bottom: 1rem; }
+    .header .header-title {
+      font-size: 1.5rem !important; }
+    .header p {
+      font-size: 1.2rem; }
+    .header a {
+      font-size: 1rem; }
+
+  .features .section-title p {
+    margin-bottom: 0 !important; }
+  .features img {
+    display: none; }
+  .features .feature-left {
+    padding-left: 7rem !important;
+    text-align: left;
+    padding-right: 0 !important; }
+    .features .feature-left .icon {
+      left: 0;
+      right: initial; }
+  .features .feature-right,
+  .features .feature-left {
+    margin: 2rem 0 !important; }
+    .features .feature-right h3,
+    .features .feature-left h3 {
+      margin-bottom: 0.5rem !important; }
+  .features .feature-right {
+    margin-top: 0 !important; }
+
+  .purchase {
+    margin-top: 0rem !important;
+    padding: 2rem 0 !important; }
+    .purchase .content {
+      flex-direction: column; }
+      .purchase .content > div {
+        padding-right: 0 !important; }
+    .purchase .btn-lg {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      border-radius: 0.2rem; }
+
+  .testimonial .carousel-item {
+    padding: 0 !important; }
+    .testimonial .carousel-item img {
+      width: 5rem;
+      height: 5rem;
+      position: absolute;
+      top: -4rem;
+      left: 0; }
+    .testimonial .carousel-item .caption h2 {
+      font-size: 1.5rem !important;
+      padding-left: 5rem !important; }
+    .testimonial .carousel-item .caption h4 {
+      font-size: 1rem !important;
+      padding-left: 5rem !important; }
+    .testimonial .carousel-item .caption p {
+      text-align: initial;
+      margin-top: 2rem !important; }
+
+  .counter .counter-list {
+    margin-top: 5rem;
+    padding: 0 !important;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem; }
+    .counter .counter-list .counter-item {
+      margin-top: 1rem; }
+    .counter .counter-list p {
+      font-size: 0.8rem; }
+    .counter .counter-list h2 {
+      font-size: 1rem; }
+
+  .contact .social {
+    margin-top: 1rem !important; }
+    .contact .social a {
+      width: 20%; }
+
+  .available .content {
+    padding-top: 2rem !important;
+    padding-bottom: 0rem !important; }
+  .available .cover-icon {
+    border-left: 1px solid #34495e;
+    border-top: 1px solid #34495e; }
+    .available .cover-icon .icon {
+      position: initial;
+      font-size: 2.6rem; } }
+@media (min-width: 578px) and (max-width: 767.99px) {
+  .section-title h1 {
+    font-size: 2rem; }
+  .section-title p {
+    padding: 0 !important;
+    margin: 2rem 0 !important; }
+
+  .pt-10 {
+    padding-top: 3rem !important; }
+
+  .header {
+    text-align: center; }
+    .header .header-img {
+      display: none; }
+    .header .header-title {
+      font-size: 2rem;
+      margin-top: 0rem !important; }
+    .header .header-btns {
+      margin: 3rem 0; }
+    .header .logo img {
+      margin-top: 5rem;
+      margin-bottom: 1rem; }
+
+  .about .choose-us-header {
+    padding-top: 2rem !important; }
+
+  .testimonial .carousel-item {
+    padding: 0 !important; }
+    .testimonial .carousel-item img {
+      width: 5rem;
+      height: 5rem;
+      position: absolute;
+      top: -4rem;
+      left: 2rem; }
+    .testimonial .carousel-item .caption {
+      padding-bottom: 4rem; }
+      .testimonial .carousel-item .caption h2 {
+        font-size: 2rem; }
+      .testimonial .carousel-item .caption p {
+        margin-top: 1rem;
+        margin-bottom: 0 !important; }
+
+  .features .section-title p {
+    margin-bottom: 0 !important; }
+  .features img {
+    display: none; }
+  .features .feature-left {
+    padding-left: 7rem !important;
+    text-align: left;
+    padding-right: 0 !important; }
+    .features .feature-left .icon {
+      left: 0;
+      right: initial; }
+  .features .feature-right,
+  .features .feature-left {
+    margin: 2rem 0 !important; }
+    .features .feature-right h3,
+    .features .feature-left h3 {
+      margin-bottom: 0.5rem !important; }
+  .features .feature-right {
+    margin-top: 0 !important; }
+
+  .purchase {
+    margin-top: 0rem !important;
+    padding: 2rem 0 !important; }
+    .purchase .content {
+      flex-direction: column; }
+    .purchase .btn-lg {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      border-radius: 0.2rem; }
+
+  .counter .counter-list {
+    margin-top: 5rem;
+    padding: 0 !important;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2.5rem; }
+
+  .download .img-fluid {
+    max-width: 70%; }
+
+  .available .content {
+    padding-top: 2rem !important;
+    padding-bottom: 0rem !important; }
+  .available .cover-icon {
+    border-left: 1px solid #34495e;
+    border-top: 1px solid #34495e; }
+    .available .cover-icon .icon {
+      position: initial;
+      font-size: 2.6rem; }
+
+  .contact .social {
+    margin-top: 1rem !important; } }
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .img-fluid {
+    max-width: 70%; }
+
+  .section-title h1 {
+    font-size: 2rem; }
+  .section-title p {
+    padding: 0 !important;
+    margin: 2rem 0 !important; }
+
+  .pt-10 {
+    padding-top: 3rem !important; }
+
+  .header .logo img {
+    margin: 3rem 0 !important; }
+  .header .header-title {
+    font-size: 2rem; }
+  .header .header-btns {
+    margin-top: 0 !important; }
+  .header .header-img {
+    margin-bottom: 2rem !important; }
+
+  .about .choose-us-header h2 {
+    margin-top: 1rem; }
+
+  .testimonial .mt-5 {
+    margin-top: 1rem !important; }
+  .testimonial img {
+    margin-top: 2rem !important; }
+
+  .features .mt-10 {
+    margin-top: 1rem; }
+  .features .cover-img {
+    display: none; }
+  .features .feature-left,
+  .features .feature-right {
+    font-size: 1rem; }
+    .features .feature-left h3,
+    .features .feature-right h3 {
+      font-size: 1.3rem; }
+
+  .purchase {
+    padding: 2rem 0 !important;
+    margin-top: 0 !important; }
+    .purchase .btn-lg {
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: 0.25rem; }
+
+  .counter .counter-list {
+    padding: 2rem !important;
+    font-size: 2.5rem; }
+
+  .available .content {
+    padding-top: 2rem !important;
+    padding-bottom: 0rem !important; }
+  .available .cover-icon {
+    border-left: 1px solid #34495e;
+    border-top: 1px solid #34495e; }
+    .available .cover-icon .icon {
+      position: initial;
+      font-size: 2.6rem; }
+
+  .contact .social {
+    margin-top: 1rem !important; } }
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .img-fluid {
+    max-width: 70%; }
+
+  .section-title h1 {
+    font-size: 2.5rem; }
+  .section-title p {
+    padding: 0 !important;
+    margin: 2rem 0 !important; }
+
+  .pt-10 {
+    padding-top: 3rem !important; }
+
+  .features .mt-10 {
+    margin-top: 1rem; }
+  .features .cover-img {
+    display: none; }
+  .features .feature-left,
+  .features .feature-right {
+    font-size: 1rem; }
+    .features .feature-left h3,
+    .features .feature-right h3 {
+      font-size: 1.3rem; }
+
+  .counter .counter-list {
+    padding: 5rem !important; } }
+
+/*# sourceMappingURL=responsive.css.map */
