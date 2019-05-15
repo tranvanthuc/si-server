@@ -39,16 +39,17 @@ a {
 .header {
   background-image: url("../images/bg1.png");
   background-position: 50% 50%;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100%;
   width: 100%;
   padding: 5% 0 15% 0;
+  min-height: 815px;
   color: #494949;
   position: relative; }
   .header .title h1 {
-    font-size: 72px;
+    font-size: 4em;
     letter-spacing: 4px;
-    line-height: 127px;
+    line-height: 2em;
     font-family: "mplus";
     font-weight: bold; }
   .header .title p {
@@ -87,7 +88,7 @@ a {
 
 .campaign {
   position: relative;
-  box-shadow: 0 -30px 30px 30px white; }
+  box-shadow: 0 -30px 30px 50px white; }
   .campaign h3 {
     font-size: 50px;
     letter-spacing: 1px;
@@ -137,8 +138,33 @@ a {
   width: 90%;
   margin: 0 auto; }
   .information .seminar {
-    padding: 5% 5%;
     background-image: url("../images/bg4.png");
-    height: 700px; }
+    background-position: center;
+    height: 80vh;
+    width: 100%; }
+  .information .overlay {
+    padding: 10%;
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    z-index: 3;
+    background-color: rgba(31, 31, 31, 0.7); }
+  .information .list .item {
+    background-color: black;
+    color: white;
+    text-align: center; }
+
+.entry {
+  height: 50vh;
+  position: relative; }
+  .entry .form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f6f7fb;
+    padding: 5%; }
+
+.footer {
+  background-color: blueviolet;
+  height: 100vh; }
 
 /*# sourceMappingURL=style.css.map */
