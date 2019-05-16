@@ -2,6 +2,13 @@
   padding: 0;
   margin: 0; }
 
+.font__size_75 {
+  font-size: 0.75em !important; }
+
+.mid__container {
+  width: 90%;
+  margin: 0 auto; }
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -15,20 +22,6 @@ a:visited,
 a:active,
 a {
   text-decoration: none; }
-
-.section-title h1::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -1rem;
-  width: 5rem;
-  height: 1px;
-  margin-left: -2.5rem;
-  background-color: #129cf3; }
-.section-title p {
-  padding: 0rem 7rem;
-  margin-top: 3rem;
-  margin-bottom: 5rem; }
 
 .mt-10 {
   margin-top: 7rem; }
@@ -46,13 +39,13 @@ a {
   min-height: 815px;
   color: #494949;
   position: relative; }
-  .header .title h1 {
+  .header .title .title__h1 {
     font-size: 4em;
     letter-spacing: 4px;
     line-height: 2em;
     font-family: "mplus";
     font-weight: bold; }
-  .header .title p {
+  .header .title .title__p {
     font-size: 20px;
     line-height: 35px;
     font-family: "M+ 1m";
@@ -61,7 +54,7 @@ a {
     font-size: 20px;
     letter-spacing: 1px;
     color: #494949;
-    font-family: "M+ 1c";
+    font-family: "M+ 1c", serif;
     font-weight: 500;
     text-align: center;
     border-radius: 10px;
@@ -89,42 +82,42 @@ a {
 .campaign {
   position: relative;
   box-shadow: 0 -30px 30px 50px white; }
-  .campaign h3 {
+  .campaign .campaign_h3 {
     font-size: 50px;
     letter-spacing: 1px;
     line-height: 50px;
     color: #141f2a;
-    font-family: "M+ 1c";
+    font-family: "M+ 1c", serif;
     font-weight: 500; }
-  .campaign h4 {
+  .campaign .campaign_h4 {
     letter-spacing: 1px;
     line-height: 50px;
     color: #141f2a;
-    font-family: "M+ 1c"; }
-  .campaign .left,
-  .campaign .right {
+    font-family: "M+ 1c", serif; }
+  .campaign .campaign__left,
+  .campaign .campaign__right {
     position: relative;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px; }
-    .campaign .left div,
-    .campaign .right div {
+    .campaign .campaign__left div,
+    .campaign .campaign__right div {
       position: absolute;
       background-color: rgba(255, 255, 255, 0.8);
       width: 100%;
       left: 0;
       right: 0; }
-      .campaign .left div h1,
-      .campaign .right div h1 {
+      .campaign .campaign__left div h1,
+      .campaign .campaign__right div h1 {
         font-weight: bold; }
-  .campaign .left {
+  .campaign .campaign__left {
     background-image: url("../images/bg2.png"); }
-    .campaign .left div {
+    .campaign .campaign__left div {
       bottom: 0; }
-  .campaign .right {
+  .campaign .campaign__right {
     background-image: url("../images/bg3.png"); }
-    .campaign .right div {
+    .campaign .campaign__right div {
       top: 0; }
   .campaign .light {
     background-color: #f1f4f9;
@@ -159,12 +152,25 @@ a {
   position: relative; }
   .entry .form {
     width: 90%;
-    margin: 0 auto;
+    min-height: 850px;
+    margin: 3% 5%;
     background-color: #f6f7fb;
-    padding: 5%; }
+    padding: 3% 5%;
+    position: relative; }
+    .entry .form .custom__checkbox:before, .entry .form .custom__checkbox:after {
+      top: 0 !important;
+      left: -1rem !important;
+      width: 1.5rem !important;
+      height: 1.5rem !important; }
+    .entry .form .btn-form {
+      background-color: transparent;
+      color: #494949;
+      border-radius: 5px;
+      border: 2px solid #494949; }
 
-.footer {
-  background-color: blueviolet;
-  height: 100vh; }
+.footer--background {
+  background-color: #4499dd;
+  height: 85vh;
+  min-height: 900px; }
 
 /*# sourceMappingURL=style.css.map */
